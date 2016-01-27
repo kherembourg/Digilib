@@ -7,7 +7,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.kherembourg.digilib.R;
-import com.kherembourg.digilib.calendar.dagger.CalendarComponent;
 import com.kherembourg.digilib.calendar.ui.fragments.CalendarFragment;
 import com.kherembourg.digilib.trakt.account.activities.LoginActivity;
 import com.kherembourg.digilib.trakt.account.authentication.AuthenticationRepository;

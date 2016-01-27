@@ -13,8 +13,8 @@ android {
         versionName "1.0"
 
         buildConfigField "String", "TRAKT_API_URL", '"https://api-v2launch.trakt.tv/"'
-        buildConfigField "String", "TRAKT_CLIENT_ID", '"249f9de96dae8ad9f619b91f8de38e8d1a4a81e1e3fd99597e9aa12d65c85107"'
-        buildConfigField "String", "TRAKT_CLIENT_SECRET", '"984662266a83444c9904a26ec862308de3afb901ec644ebc4abfcad9e20be375"'
+        buildConfigField "String", "TRAKT_CLIENT_ID", traktClientId
+        buildConfigField "String", "TRAKT_CLIENT_SECRET", traktClientSecret
         buildConfigField "String", "TRAKT_REDIRECT_URI", '"digilib://digilib.com"'
     }
     buildTypes {
